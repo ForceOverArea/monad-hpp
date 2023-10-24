@@ -5,7 +5,7 @@ I like the verbage and feel of Haskell's `Maybe T` and Rust's `Result<T, E>`, an
 Both templates have a method that applies a function to the `T` value and returns another `Maybe<T>` or `Result<T, E>`. This allows for 
 method chains that emulate monads in Rust and Haskell. See the example below for usage of `Result<T, E>`.
 
-```
+```cpp
 #include <iostream>
 #include <math.h>
 #include <string>
